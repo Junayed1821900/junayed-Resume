@@ -1,0 +1,53 @@
+/* External CSS file*/
+
+* {
+  font-size: 18px;
+}
+
+h2 {
+  color: orange;
+}
+
+
+/* Combination Example: Group Selectors */
+
+span, .lightText {
+  font-weight: 200;
+  color: darkgray;
+}
+
+
+/* Combination Example: Element with class */
+
+p.main {
+  color: purple;
+}
+
+
+/* Combination Example: Child Selector */
+
+article>p {
+  color: red
+}
+
+
+/* Combination Example: Descendant Selector */
+
+.desc p {
+  color: green;
+}
+
+
+/* Pseudo Class Example */
+
+.pseudoClassExample {
+  margin-top: 15px;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.pseudoClassExample:hover {
+  background-color: orange;
+  color: white;
+}
