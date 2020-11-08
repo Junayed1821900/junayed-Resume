@@ -1,0 +1,41 @@
+/* Base Styles */
+
+.section-one, .section-two {
+  text-align: center;
+  font-size: 32px;
+  padding: 10px;
+  margin: 10px;
+  height: 400px;
+  line-height: 200px;
+  display: inline-block;
+  width: 45%;
+}
+
+.section-one {
+  background-color: yellow;
+}
+
+.section-two {
+  background-color: red;
+}
+
+
+/* Responsive Styles*/
+
+@media (max-width: 575px) {
+  .section-one, .section-two {
+    width: 90%;
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 860px) and (min-width: 576px) {
+  .section-one {
+    width: 30%;
+    font-size: 24px;
+  }
+  .section-two {
+    width: 55%;
+    background-color: green;
+  }
+}

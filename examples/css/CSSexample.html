@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Examples</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .blueText {
+            color: blue;
+        }
+        
+        #uniqueGreen {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Hello World! All H2 text is orange here!</h2>
+    <p style="text-align: center;">I am centered with inline CSS!</p>
+    <p class="blueText"> I am blue text with class defined in &lt;style&gt; tags</p>
+    <p id="uniqueGreen"> I am green text with style defined with an ID selector</p>
+    <p>All <span>spans</span> are lighter</p>
+    <p class="lightText">This para is also light</p>
+    <p class="main">This main text in this div is purple</p>
+    <div class="main">This other div of main text is not purple </div>
+    <article>
+        <p>This text directly inside article is red</p>
+    </article>
+    <article>
+        <div>
+            <p>This text in a para inside a div in an article is not red</p>
+        </div>
+    </article>
+    <div class="desc">
+        <p>This text is a direct child of div with class desc and hence green</p>
+        <article>
+            <p>This text is nested further inside a div with class desc, but still a descendant, hence green</p>
+        </article>
+    </div>
+    <div class="pseudoClassExample">
+        Hover over me!
+    </div>
+</body>
+
+</html>
