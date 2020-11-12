@@ -1,12 +1,18 @@
 
 
-* {
+ * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+html{
+    color: #222;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 h1 {
+    background-color: yellow;
     font-size: 1.2rem;
     text-transform: uppercase;
     padding: .5 rem;
@@ -14,4 +20,31 @@ h1 {
     border-top: 1px solid #888;
     border-bottom: 1px solid #888;
 }
+h3 {
+    font-style: oblique;  
+    background-color: bisque;  
+}
 
+.profile img{
+    border-radius: 999px;
+    width: 15rem;
+    height: 15rem;
+}
+
+.skill > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.resume{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8rem;
+}
+
+#table {
+    background-color:yellowgreen;
+    border-color: black;
+}
