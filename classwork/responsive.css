@@ -9,13 +9,21 @@
     }
   }
   
-  @media (max-width: 1000px){
+  @media (min-width: 1000px){
     .profile {
       width: 30%;
       font-size: 24px;
     }
     .contact {
       width: 55%;
-      background-color: green;
+      background-color: greenyellow;
     }
+  }
+
+  @media (min-width: 501px) and (max-width: 999px)
+  {
+      .Experience {
+          width: 40%;
+          background-color: lightgreen;
+      }
   }
