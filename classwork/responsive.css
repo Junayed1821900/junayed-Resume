@@ -5,10 +5,11 @@
     .resume {
       width: 90%;
       font-size: 32px;
+      background-color: yellow;
     }
   }
   
-  @media (max-width: 1000px) and (min-width: 501px) {
+  @media (max-width: 1000px){
     .profile {
       width: 30%;
       font-size: 24px;
