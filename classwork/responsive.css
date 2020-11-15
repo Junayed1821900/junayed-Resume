@@ -1,1 +1,20 @@
 /* Your responsive CSS styles go here */
+
+
+@media (max-width: 500px) {
+    .resume {
+      width: 90%;
+      font-size: 32px;
+    }
+  }
+  
+  @media (max-width: 1000px) and (min-width: 501px) {
+    .profile {
+      width: 30%;
+      font-size: 24px;
+    }
+    .contact {
+      width: 55%;
+      background-color: green;
+    }
+  }
