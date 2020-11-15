@@ -1,7 +1,7 @@
 /* Your responsive CSS styles go here */
 
 
-@media (max-width: 500px) {
+@media (max-width:500px) {
     .resume {
       width: 90%;
       font-size: 32px;
@@ -9,7 +9,7 @@
     }
   }
   
-  @media (min-width: 1000px){
+  @media (min-width:1000px){
     .profile {
       width: 30%;
       font-size: 24px;
@@ -20,7 +20,7 @@
     }
   }
 
-  @media (min-width: 501px) and (max-width: 999px)
+  @media (min-width:501px) and (max-width:999px)
   {
       .Experience {
           width: 40%;
